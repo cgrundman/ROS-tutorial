@@ -9,7 +9,6 @@ def num_cb(data):
 
 def listener():
 
-    
     rospy.init_node('int_subscriber', anonymous=True)
 
     rospy.Subscriber("number_out", Int16, num_cb)

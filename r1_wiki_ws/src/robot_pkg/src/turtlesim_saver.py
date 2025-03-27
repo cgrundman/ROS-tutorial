@@ -2,6 +2,7 @@
 import rospy
 from geometry_msgs.msg import Twist
 from turtlesim.msg import Pose
+import math
 
 class vel_manipulator:
 
@@ -14,11 +15,25 @@ class vel_manipulator:
         self.velocity_msg = Twist()
 
     def pose_callback(self, msg):
-        if (msg.x >= 7):
-            ## stopping condition
-            self.velocity_msg.linear.x = 0
-        else :
+        # Left wall
+        if (msg.x >= 8 and (msg.theta > (-3 * math.pi / 4) or msg.theta < (3 * math.pi / 4))):
+            self.velocity_msg.linear.x = 0.1 # stop
+            self.velocity_msg.angular.z = 10
+        # Right wall
+        elif (msg.x <= 3 and (msg.theta > (-math.pi / 4) or msg.theta < (math.pi / 4))):
+            self.velocity_msg.linear.x = 0.1 # stop
+            self.velocity_msg.angular.z = 10
+        # Top wall
+        elif (msg.y >= 8 and (msg.theta > (math.pi / 4) or msg.theta < (3 * math.pi / 4))):
+            self.velocity_msg.linear.x = 0.1 # stop
+            self.velocity_msg.angular.z = 10
+        # Bottom wall
+        elif (msg.y <= 3 and (msg.theta > (-3 * math.pi / 4) or msg.theta < (-math.pi / 4))):
+            self.velocity_msg.linear.x = 0.1 # stop
+            self.velocity_msg.angular.z = 10
+        else:
             self.velocity_msg.linear.x = 0.5
+            self.velocity_msg.angular.z = 0
 
         self.pub.publish(self.velocity_msg)
 
