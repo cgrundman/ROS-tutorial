@@ -4,7 +4,7 @@ import rospy
 from service_pkg.srv import addition, additionResponse
 
 def server_cb(req):
-    return additionResponse(req.a + req.b)    
+    return additionResponse(req.x + req.y)    
 
 if __name__ == "__main__":
     rospy.init_node('add_two_ints_server')
