@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node pkg="turtlesim" type="turtlesim_node" name="my_tbsim">
+        
+    </node>
+
+    <node pkg="turtlesim" type="turtle_teleop_key" name="teleop_turtle" output="screen" respawn="true">
+        
+    </node>
+
+</launch>
