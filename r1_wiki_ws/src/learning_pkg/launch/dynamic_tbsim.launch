@@ -6,7 +6,7 @@
         <arg name="keyboard_name" value="tbsim_kb_1"/>
         <arg name="vel_topic" value="tb1_vel"/>
         <arg name="show_sim" value="true"/>
-        
+        <param name="/tbsim_1/background_b" value="0"/>        
     </include>
 
     <!-- <include file="$(find learning_pkg)/launch/bringup_tbsim.launch">
