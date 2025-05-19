@@ -47,13 +47,13 @@ source devel/setup.bash
 
 | # | Theme | Focus | Assignments |
 |---|-------|-------|-------------|
-| 1	| Core Tools & Concepts | `roscore`, `rosrun`, `rosnode`, `rostopic`, `rosparam`, `rosmsg` | 🔹 Start roscore and explore running nodes<br> 🔹 Use rosrun and roslaunch<br> 🔹 Publish/subscribe to topics with rostopic<br> 🔹 Set/get parameters with rosparam<br> 🔹 Describe a message with rosmsg show |
-| 2	| Custom Messages & Services | Create `.msg` and `.srv` files | 🔹 Create a package with custom messages<br> 🔹 Define a custom service<br> 🔹 Build with catkin_make and test with rosservice call |
-| 3	| TF & Coordinate Transforms | `tf` / `tf2` (ROS 1 uses both) | 🔹 Broadcast a simple transform between two frames<br> 🔹 Visualize in RViz<br> 🔹 Use tf_echo and tf_monitor to debug transforms |
-| 4	| Launch Files & Parameters | `roslaunch`, `.yaml`, `rosparam` | 🔹 Create a launch file to start multiple nodes<br> 🔹 Load parameters from a YAML file<br> 🔹 Explore arg substitution and parameter namespacing |
-| 5	| Bag Files & Logging | `rosbag`, `roswtf`, `rosconsole` | 🔹 Record topics with rosbag record<br> 🔹 Play back data with rosbag play<br> 🔹 Analyze issues with roswtf<br> 🔹 Adjust logging levels |
+| 1	| Core Tools & Concepts | `roscore`, `rosrun`, `rosnode`, `rostopic`, `rosparam`, `rosmsg` | 🔹 Start `roscore` and explore running nodes<br> 🔹 Use `rosrun` and `roslaunch`<br> 🔹 Publish/subscribe to topics with `rostopic`<br> 🔹 Set/get parameters with `rosparam`<br> 🔹 Describe a message with `rosmsg show` |
+| 2	| Custom Messages & Services | Create `.msg` and `.srv` files | 🔹 Create a package with custom messages<br> 🔹 Define a custom service<br> 🔹 Build with `catkin_make` and test with `rosservice call` |
+| 3	| TF & Coordinate Transforms | `tf` / `tf2` (ROS 1 uses both) | 🔹 Broadcast a simple transform between two frames<br> 🔹 Visualize in RViz<br> 🔹 Use `tf_echo` and `tf_monitor` to debug transforms |
+| 4	| Launch Files & Parameters | `roslaunch`, `.yaml`, `rosparam` | 🔹 Create a launch file to start multiple nodes<br> 🔹 Load parameters from a YAML file<br> 🔹 Explore `arg` substitution and parameter namespacing |
+| 5	| Bag Files & Logging | `rosbag`, `roswtf`, `rosconsole` | 🔹 Record topics with `rosbag record`<br> 🔹 Play back data with `rosbag play`<br> 🔹 Analyze issues with `roswtf`<br> 🔹 Adjust logging levels |
 | 6	| Simulation (Optional) | Gazebo or Stage + RViz | 🔹 Launch a robot in simulation<br> 🔹 View topics and frames<br> 🔹 Simulate sensor data and visualize in RViz |
-| 7	| Actions & Multinode | `actionlib`, multiple machines | 🔹 Create an action server and client<br> 🔹 Test behavior using rqt_action<br> 🔹 Optionally, try running ROS across two machines (ROS master config) |
+| 7	| Actions & Multinode | `actionlib`, multiple machines | 🔹 Create an action server and client<br> 🔹 Test behavior using `rqt_action`<br> 🔹 Optionally, try running ROS across two machines (ROS master config) |
 | 8	| Mini-Project | Build a complete ROS 1 pipeline | 🔹 Create a simple robot control loop<br> 🔹 Include publishers, subscribers, service/server<br> 🔹 Visualize in RViz or simulate in Gazebo<br> 🔹 Use a launch file with parameters |
 
 ## License
