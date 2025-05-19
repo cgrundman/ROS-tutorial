@@ -43,6 +43,8 @@ source devel/setup.bash
 
 6. **Follow the tutorials**: Each tutorial is located in the r1_wiki_ws/src directory. Refer to the [ROS Wiki tutorials](https://wiki.ros.org/ROS/Tutorials) for detailed instructions.
 
+---
+
 ## 🧭 ROS Challenge Plan
 
 | # | Theme | Focus | Assignments |
@@ -55,6 +57,16 @@ source devel/setup.bash
 | 6	| Simulation (Optional) | Gazebo or Stage + RViz | 🔹 Launch a robot in simulation<br> 🔹 View topics and frames<br> 🔹 Simulate sensor data and visualize in RViz |
 | 7	| Actions & Multinode | `actionlib`, multiple machines | 🔹 Create an action server and client<br> 🔹 Test behavior using `rqt_action`<br> 🔹 Optionally, try running ROS across two machines (ROS master config) |
 | 8	| Mini-Project | Build a complete ROS 1 pipeline | 🔹 Create a simple robot control loop<br> 🔹 Include publishers, subscribers, service/server<br> 🔹 Visualize in RViz or simulate in Gazebo<br> 🔹 Use a launch file with parameters |
+
+---
+
+## 🧪 Tips for ROS 1:
+ - Always source the setup file: `source devel/setup.bash`.
+ - Use `catkin_make` for building.
+ - Use `roswtf` if something isn’t working—it often gives helpful clues.
+ - To clean: `catkin_make` clean.
+
+---
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/cgrundman/ROS-tutorial/blob/main/LICENSE) file for details.
