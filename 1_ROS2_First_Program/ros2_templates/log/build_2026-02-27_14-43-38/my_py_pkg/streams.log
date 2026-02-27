@@ -1,0 +1,21 @@
+[0.555s] Invoking command in '/home/cgrundman/ros2_ws/build/my_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cgrundman/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/cgrundman/ros2_ws/build/my_py_pkg/build --no-deps symlink_data
+[0.762s] running develop
+[0.890s] running egg_info
+[0.903s] writing my_py_pkg.egg-info/PKG-INFO
+[0.903s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[0.903s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[0.903s] writing requirements to my_py_pkg.egg-info/requires.txt
+[0.903s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[0.934s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.935s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.950s] running build_ext
+[0.950s] Creating /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)
+[0.950s] Installing number_counter script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.951s] Installing number_publisher script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.951s] Installing py_node script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.951s] Installing robot_news_station script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.951s] Installing smartphone script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.951s] 
+[0.951s] Installed /home/cgrundman/ros2_ws/build/my_py_pkg
+[0.951s] running symlink_data
+[0.976s] Invoked command in '/home/cgrundman/ros2_ws/build/my_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cgrundman/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/cgrundman/ros2_ws/build/my_py_pkg/build --no-deps symlink_data

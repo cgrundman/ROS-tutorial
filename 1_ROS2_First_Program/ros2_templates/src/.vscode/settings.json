@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "/home/cgrundman/ros2_ws/src/my_cpp_pkg"
+    "cmake.sourceDirectory": "/home/cgrundman/ros2_ws/src/my_cpp_pkg",
+    "C_Cpp.errorSquiggles": "enabled"
 }

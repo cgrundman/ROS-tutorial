@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing my_py_pkg.egg-info/PKG-INFO
+writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+writing entry points to my_py_pkg.egg-info/entry_points.txt
+writing requirements to my_py_pkg.egg-info/requires.txt
+writing top-level names to my_py_pkg.egg-info/top_level.txt
+reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)
+Installing number_publisher script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+Installing py_node script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+Installing robot_news_station script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+Installing smartphone script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+
+Installed /home/cgrundman/ros2_ws/build/my_py_pkg
+running symlink_data
