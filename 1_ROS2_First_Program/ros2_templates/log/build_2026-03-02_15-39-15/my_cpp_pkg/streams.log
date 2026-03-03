@@ -1,0 +1,48 @@
+[0.010s] Invoking command in '/home/cgrundman/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cgrundman/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cgrundman/ros2_ws/build/my_cpp_pkg -- -j14 -l14
+[0.029s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.506s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.510s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.527s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.533s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.543s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.552s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.592s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.592s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.641s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.687s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[0.834s] -- Configuring done (0.8s)
+[0.850s] -- Generating done (0.0s)
+[0.857s] -- Build files have been written to: /home/cgrundman/ros2_ws/build/my_cpp_pkg
+[0.888s] [  8%] [32mBuilding CXX object CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.o[0m
+[0.891s] [ 25%] Built target add_two_ints_server
+[0.891s] [ 41%] Built target smartphone
+[0.895s] [ 91%] Built target robot_news_station
+[0.895s] [ 91%] Built target cpp_node
+[0.895s] [ 91%] Built target node_name
+[3.382s] [100%] [32m[1mLinking CXX executable add_two_ints_client_no_oop[0m
+[3.498s] [100%] Built target add_two_ints_client_no_oop
+[3.508s] Invoked command in '/home/cgrundman/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cgrundman/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cgrundman/ros2_ws/build/my_cpp_pkg -- -j14 -l14
+[3.517s] Invoking command in '/home/cgrundman/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cgrundman/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cgrundman/ros2_ws/build/my_cpp_pkg
+[3.523s] -- Install configuration: ""
+[3.523s] -- Execute custom install script
+[3.523s] -- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[3.523s] -- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[3.523s] -- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[3.524s] -- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[3.524s] -- Symlinking: /home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+[3.533s] -- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[3.533s] -- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[3.533s] -- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[3.533s] -- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[3.533s] -- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[3.533s] -- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[3.533s] -- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[3.533s] -- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[3.534s] -- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[3.534s] -- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[3.534s] -- Symlinking: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[3.541s] -- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[3.541s] -- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[3.541s] -- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[3.541s] -- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[3.543s] Invoked command in '/home/cgrundman/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cgrundman/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cgrundman/ros2_ws/build/my_cpp_pkg

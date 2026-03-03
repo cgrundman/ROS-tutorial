@@ -1,0 +1,57 @@
+running develop
+Removing /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)
+running egg_info
+writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying my_py_pkg/add_two_ints_client_no_oop.py -> /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+copying my_py_pkg/add_two_ints_client.py -> /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+copying my_py_pkg/number_counter.py -> /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+copying my_py_pkg/number_publisher.py -> /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+copying my_py_pkg/template_python_node.py -> /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+running install
+running install_lib
+creating /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+copying /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client_no_oop.py -> /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+copying /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+copying /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client.py -> /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+copying /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+copying /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+copying /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+copying /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+copying /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/template_python_node.py.py -> /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+copying /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/template_python_node.py -> /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+copying /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+copying /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+byte-compiling /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/add_two_ints_client_no_oop.py to add_two_ints_client_no_oop.cpython-312.pyc
+byte-compiling /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-312.pyc
+byte-compiling /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/add_two_ints_client.py to add_two_ints_client.cpython-312.pyc
+byte-compiling /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-312.pyc
+byte-compiling /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-312.pyc
+byte-compiling /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-312.pyc
+byte-compiling /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/template_python_node.py.py to template_python_node.py.cpython-312.pyc
+byte-compiling /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/template_python_node.py to template_python_node.cpython-312.pyc
+byte-compiling /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-312.pyc
+byte-compiling /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-312.pyc
+running install_data
+copying resource/my_py_pkg -> /home/cgrundman/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/cgrundman/ros2_ws/install/my_py_pkg/share/my_py_pkg
+running install_egg_info
+Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+running install_scripts
+Installing add_two_ints_client script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+Installing add_two_ints_client_no_oop script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+Installing add_two_ints_server script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+Installing number_counter script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+Installing number_publisher script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+Installing py_node script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+Installing robot_news_station script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+Installing smartphone script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+writing list of installed files to '/home/cgrundman/ros2_ws/build/my_py_pkg/install.log'

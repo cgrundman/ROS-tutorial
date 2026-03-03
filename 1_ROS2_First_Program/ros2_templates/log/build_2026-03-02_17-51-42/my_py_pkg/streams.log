@@ -1,0 +1,31 @@
+[0.572s] Invoking command in '/home/cgrundman/ros2_ws/src/my_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cgrundman/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/cgrundman/ros2_ws/build/my_py_pkg/build install --record /home/cgrundman/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[0.755s] running egg_info
+[0.768s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.768s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.769s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.769s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.769s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.796s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.796s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.796s] running build
+[0.796s] running build_py
+[0.796s] copying my_py_pkg/number_counter.py -> /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.797s] running install
+[0.801s] running install_lib
+[0.814s] copying /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.815s] byte-compiling /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-312.pyc
+[0.815s] running install_data
+[0.816s] running install_egg_info
+[0.830s] removing '/home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[0.830s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[0.830s] running install_scripts
+[0.925s] Installing add_two_ints_client script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.926s] Installing add_two_ints_client_no_oop script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.926s] Installing add_two_ints_server script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.926s] Installing number_counter script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.926s] Installing number_publisher script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.926s] Installing py_node script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.926s] Installing robot_news_station script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.926s] Installing smartphone script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.927s] writing list of installed files to '/home/cgrundman/ros2_ws/build/my_py_pkg/install.log'
+[0.951s] Invoked command in '/home/cgrundman/ros2_ws/src/my_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cgrundman/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/cgrundman/ros2_ws/build/my_py_pkg/build install --record /home/cgrundman/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data

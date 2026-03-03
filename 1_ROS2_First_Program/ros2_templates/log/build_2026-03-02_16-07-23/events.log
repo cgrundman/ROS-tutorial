@@ -1,0 +1,94 @@
+[0.000000] (-) TimerEvent: {}
+[0.000247] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000309] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000562] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.006065] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.006599] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.007093] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cgrundman/ros2_ws/build/my_cpp_pkg', '--', '-j14', '-l14'], 'cwd': '/home/cgrundman/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'cgrundman', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/cgrundman', 'OLDPWD': '/home/cgrundman/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu-xorg', 'PYENV_SHELL': 'bash', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '4628', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/cgrundman/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'cgrundman', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'cgrundman', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/cgrundman/.pyenv/shims:/home/cgrundman/.pyenv/bin:/opt/ros/jazzy/bin:/home/cgrundman/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/404notfound:@/tmp/.ICE-unix/4596,unix/404notfound:/tmp/.ICE-unix/4596', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7d548418_c2d4_4f73_9a3c_46125085343c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.720', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/cgrundman/ros2_ws/install/my_py_pkg:/home/cgrundman/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/cgrundman/ros2_ws/build/my_cpp_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'PYENV_ROOT': '/home/cgrundman/.pyenv', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/cgrundman/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/cgrundman/GitLab/python-icitdlas:/home/cgrundman/ros2_ws/build/my_py_pkg:/home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/cgrundman/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/cgrundman/ros2_ws/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[0.029685] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099852] (-) TimerEvent: {}
+[0.200170] (-) TimerEvent: {}
+[0.300539] (-) TimerEvent: {}
+[0.400918] (-) TimerEvent: {}
+[0.494612] (my_cpp_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.498359] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.500998] (-) TimerEvent: {}
+[0.515661] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.520897] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.527660] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.535646] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.574167] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.574937] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.601125] (-) TimerEvent: {}
+[0.624480] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.664895] (my_cpp_pkg) StdoutLine: {'line': b'-- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)\n'}
+[0.701290] (-) TimerEvent: {}
+[0.799837] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring done (0.8s)\n'}
+[0.801374] (-) TimerEvent: {}
+[0.818202] (my_cpp_pkg) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.824593] (my_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/cgrundman/ros2_ws/build/my_cpp_pkg\n'}
+[0.857265] (my_cpp_pkg) StdoutLine: {'line': b'[ 14%] Built target node_name\n'}
+[0.857550] (my_cpp_pkg) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints_client_oop.dir/src/add_two_ints_client_oop.cpp.o\x1b[0m\n'}
+[0.858546] (my_cpp_pkg) StdoutLine: {'line': b'[ 35%] Built target cpp_node\n'}
+[0.858893] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] Built target add_two_ints_server\n'}
+[0.859130] (my_cpp_pkg) StdoutLine: {'line': b'[ 64%] Built target smartphone\n'}
+[0.859948] (my_cpp_pkg) StdoutLine: {'line': b'[ 78%] Built target add_two_ints_client_no_oop\n'}
+[0.860642] (my_cpp_pkg) StdoutLine: {'line': b'[ 92%] Built target robot_news_station\n'}
+[0.901487] (-) TimerEvent: {}
+[1.001788] (-) TimerEvent: {}
+[1.102085] (-) TimerEvent: {}
+[1.202371] (-) TimerEvent: {}
+[1.302692] (-) TimerEvent: {}
+[1.403021] (-) TimerEvent: {}
+[1.503337] (-) TimerEvent: {}
+[1.603641] (-) TimerEvent: {}
+[1.703999] (-) TimerEvent: {}
+[1.804405] (-) TimerEvent: {}
+[1.904774] (-) TimerEvent: {}
+[2.005157] (-) TimerEvent: {}
+[2.105587] (-) TimerEvent: {}
+[2.206029] (-) TimerEvent: {}
+[2.306365] (-) TimerEvent: {}
+[2.406793] (-) TimerEvent: {}
+[2.507287] (-) TimerEvent: {}
+[2.607630] (-) TimerEvent: {}
+[2.707992] (-) TimerEvent: {}
+[2.808324] (-) TimerEvent: {}
+[2.908659] (-) TimerEvent: {}
+[3.008991] (-) TimerEvent: {}
+[3.109314] (-) TimerEvent: {}
+[3.209642] (-) TimerEvent: {}
+[3.309960] (-) TimerEvent: {}
+[3.361788] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable add_two_ints_client_oop\x1b[0m\n'}
+[3.410079] (-) TimerEvent: {}
+[3.487767] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target add_two_ints_client_oop\n'}
+[3.499635] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[3.500341] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[3.507770] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cgrundman/ros2_ws/build/my_cpp_pkg'], 'cwd': '/home/cgrundman/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'cgrundman', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/cgrundman', 'OLDPWD': '/home/cgrundman/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu-xorg', 'PYENV_SHELL': 'bash', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '4628', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/cgrundman/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'cgrundman', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'cgrundman', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/cgrundman/.pyenv/shims:/home/cgrundman/.pyenv/bin:/opt/ros/jazzy/bin:/home/cgrundman/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/404notfound:@/tmp/.ICE-unix/4596,unix/404notfound:/tmp/.ICE-unix/4596', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7d548418_c2d4_4f73_9a3c_46125085343c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.720', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/cgrundman/ros2_ws/install/my_py_pkg:/home/cgrundman/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/cgrundman/ros2_ws/build/my_cpp_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'PYENV_ROOT': '/home/cgrundman/.pyenv', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/cgrundman/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/cgrundman/GitLab/python-icitdlas:/home/cgrundman/ros2_ws/build/my_py_pkg:/home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/cgrundman/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/cgrundman/ros2_ws/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[3.510175] (-) TimerEvent: {}
+[3.515711] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.515942] (my_cpp_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.516082] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node\n'}
+[3.516169] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station\n'}
+[3.516251] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone\n'}
+[3.516332] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server\n'}
+[3.516413] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop\n'}
+[3.516500] (my_cpp_pkg) StdoutLine: {'line': b'-- Symlinking: /home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_oop\n'}
+[3.527577] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[3.527855] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[3.527943] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[3.528011] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[3.528088] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[3.528148] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[3.528207] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[3.528314] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[3.528376] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[3.528431] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[3.528486] (my_cpp_pkg) StdoutLine: {'line': b'-- Symlinking: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[3.534359] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[3.534582] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[3.534648] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[3.534707] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[3.536000] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[3.545625] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[3.546364] (-) EventReactorShutdown: {}
