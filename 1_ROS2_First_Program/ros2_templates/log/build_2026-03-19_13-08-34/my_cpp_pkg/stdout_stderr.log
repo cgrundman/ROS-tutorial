@@ -1,0 +1,48 @@
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+-- Found my_robot_interfaces: 0.0.0 (/home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/cgrundman/ros2_ws/build/my_cpp_pkg
+[ 12%] Built target smartphone
+[ 25%] Built target cpp_node
+[ 56%] Built target robot_news_station
+[ 50%] [32mBuilding CXX object CMakeFiles/hw_status_publisher.dir/src/hardware_status_publisher.cpp.o[0m
+[ 56%] Built target add_two_ints_server
+[ 81%] Built target node_name
+[ 81%] Built target add_two_ints_client_oop
+[ 93%] Built target add_two_ints_client_no_oop
+[100%] [32m[1mLinking CXX executable hw_status_publisher[0m
+[100%] Built target hw_status_publisher
+-- Install configuration: ""
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_oop
+-- Installing: /home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hw_status_publisher
+-- Set non-toolchain portion of runtime path of "/home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hw_status_publisher" to ""
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+-- Installing: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+-- Installing: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml

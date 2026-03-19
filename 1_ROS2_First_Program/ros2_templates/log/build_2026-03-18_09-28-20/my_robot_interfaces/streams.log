@@ -1,0 +1,54 @@
+[0.008s] Invoking command in '/home/cgrundman/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cgrundman/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cgrundman/ros2_ws/build/my_robot_interfaces -- -j14 -l14
+[0.031s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.088s] -- Found Python3: /home/cgrundman/.pyenv/shims/python3 (found version "3.12.3") found components: Interpreter 
+[0.178s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.179s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.199s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.216s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.402s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[0.402s]   execute_process(/home/cgrundman/.pyenv/shims/python3 -m rosidl_adapter
+[0.402s]   --package-name my_robot_interfaces --arguments-file
+[0.402s]   /home/cgrundman/ros2_ws/build/my_robot_interfaces/rosidl_adapter__arguments__my_robot_interfaces.json
+[0.402s]   --output-dir
+[0.403s]   /home/cgrundman/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces
+[0.403s]   --output-file
+[0.403s]   /home/cgrundman/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces.idls)
+[0.403s]   returned error code 1:
+[0.403s] 
+[0.403s]   Error processing 'int64[] led<_states' of
+[0.403s]   'my_robot_interfaces/LEDPanelState': ''led<_states' is an invalid field
+[0.403s]   name.  It should have the pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[0.403s] 
+[0.403s]   Traceback (most recent call last):
+[0.403s] 
+[0.403s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[0.403s]     File "<frozen runpy>", line 88, in _run_code
+[0.403s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.403s]       sys.exit(main())
+[0.403s]                ^^^^^^
+[0.403s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.403s]       abs_idl_file = convert_to_idl(
+[0.403s]                      ^^^^^^^^^^^^^^^
+[0.403s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.403s]       return convert_msg_to_idl(
+[0.403s]              ^^^^^^^^^^^^^^^^^^^
+[0.403s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.403s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.403s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.403s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 520, in parse_message_string
+[0.403s]       fields.append(Field(
+[0.403s]                     ^^^^^^
+[0.404s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 355, in __init__
+[0.404s]       raise NameError(
+[0.404s] 
+[0.404s]   NameError: 'led<_states' is an invalid field name.  It should have the
+[0.404s]   pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[0.404s] 
+[0.404s] Call Stack (most recent call first):
+[0.404s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[0.404s]   CMakeLists.txt:11 (rosidl_generate_interfaces)
+[0.404s] 
+[0.404s] [0m
+[0.404s] -- Configuring incomplete, errors occurred!
+[0.409s] gmake: *** [Makefile:1085: cmake_check_build_system] Error 1
+[0.411s] Invoked command in '/home/cgrundman/ros2_ws/build/my_robot_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cgrundman/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cgrundman/ros2_ws/build/my_robot_interfaces -- -j14 -l14

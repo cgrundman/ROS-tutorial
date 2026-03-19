@@ -1,4 +1,5 @@
 {
     "cmake.sourceDirectory": "/home/cgrundman/ros2_ws/src/my_cpp_pkg",
-    "C_Cpp.errorSquiggles": "enabled"
+    "C_Cpp.errorSquiggles": "enabled",
+    "python-envs.defaultEnvManager": "ms-python.python:system"
 }

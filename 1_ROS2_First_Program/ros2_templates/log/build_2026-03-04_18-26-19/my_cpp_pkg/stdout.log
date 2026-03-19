@@ -1,0 +1,8 @@
+[  6%] [32mBuilding CXX object CMakeFiles/hw_status_publisher.dir/src/hardware_status_publisher.cpp.o[0m
+[ 18%] Built target add_two_ints_server
+[ 62%] Built target node_name
+[ 62%] Built target smartphone
+[ 62%] Built target add_two_ints_client_no_oop
+[ 75%] Built target cpp_node
+[ 81%] Built target add_two_ints_client_oop
+[ 93%] Built target robot_news_station

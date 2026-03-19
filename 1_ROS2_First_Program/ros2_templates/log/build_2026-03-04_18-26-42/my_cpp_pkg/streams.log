@@ -1,0 +1,44 @@
+[0.008s] Invoking command in '/home/cgrundman/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cgrundman/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/cgrundman/GitLab/python-icitdlas:/home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/cgrundman/ros2_ws/build/my_cpp_pkg -- -j14 -l14
+[0.052s] [ 12%] Built target add_two_ints_client_no_oop
+[0.054s] [ 25%] Built target cpp_node
+[0.054s] [ 37%] Built target robot_news_station
+[0.055s] [ 50%] Built target node_name
+[0.055s] [ 62%] Built target add_two_ints_server
+[0.056s] [ 75%] Built target smartphone
+[0.059s] [ 87%] Built target add_two_ints_client_oop
+[0.061s] [ 93%] [32mBuilding CXX object CMakeFiles/hw_status_publisher.dir/src/hardware_status_publisher.cpp.o[0m
+[2.859s] [100%] [32m[1mLinking CXX executable hw_status_publisher[0m
+[2.993s] [100%] Built target hw_status_publisher
+[3.003s] Invoked command in '/home/cgrundman/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cgrundman/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/cgrundman/GitLab/python-icitdlas:/home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/cgrundman/ros2_ws/build/my_cpp_pkg -- -j14 -l14
+[3.003s] Invoking command in '/home/cgrundman/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cgrundman/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/cgrundman/GitLab/python-icitdlas:/home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/cgrundman/ros2_ws/build/my_cpp_pkg
+[3.011s] -- Install configuration: ""
+[3.011s] -- Installing: /home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[3.011s] -- Set non-toolchain portion of runtime path of "/home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""
+[3.011s] -- Installing: /home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[3.012s] -- Set non-toolchain portion of runtime path of "/home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station" to ""
+[3.012s] -- Installing: /home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[3.014s] -- Set non-toolchain portion of runtime path of "/home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone" to ""
+[3.014s] -- Installing: /home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[3.014s] -- Set non-toolchain portion of runtime path of "/home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server" to ""
+[3.014s] -- Installing: /home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+[3.015s] -- Set non-toolchain portion of runtime path of "/home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop" to ""
+[3.015s] -- Installing: /home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_oop
+[3.016s] -- Set non-toolchain portion of runtime path of "/home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_oop" to ""
+[3.016s] -- Installing: /home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hw_status_publisher
+[3.016s] -- Set non-toolchain portion of runtime path of "/home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hw_status_publisher" to ""
+[3.016s] -- Installing: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[3.016s] -- Installing: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[3.016s] -- Installing: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[3.016s] -- Installing: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[3.017s] -- Installing: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[3.017s] -- Installing: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[3.017s] -- Installing: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[3.017s] -- Installing: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[3.017s] -- Installing: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[3.017s] -- Installing: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[3.017s] -- Installing: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[3.017s] -- Installing: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[3.017s] -- Installing: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[3.017s] -- Installing: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[3.017s] -- Installing: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[3.019s] Invoked command in '/home/cgrundman/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cgrundman/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/cgrundman/GitLab/python-icitdlas:/home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/cgrundman/ros2_ws/build/my_cpp_pkg

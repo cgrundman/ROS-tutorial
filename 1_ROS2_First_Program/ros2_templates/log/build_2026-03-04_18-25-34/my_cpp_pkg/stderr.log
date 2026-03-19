@@ -1,0 +1,8 @@
+[01m[K/home/cgrundman/ros2_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:[m[K In member function ‘[01m[Kvoid HardwareStatusPublisherNode::[01;32m[KpublishHardwareStatus[m[K()[m[K’:
+[01m[K/home/cgrundman/ros2_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:28:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   28 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/hw_status_publisher.dir/build.make:76: CMakeFiles/hw_status_publisher.dir/src/hardware_status_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/hw_status_publisher.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

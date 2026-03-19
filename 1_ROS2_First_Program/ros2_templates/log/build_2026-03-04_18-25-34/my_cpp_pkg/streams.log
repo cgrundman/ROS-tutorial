@@ -1,0 +1,63 @@
+[0.009s] Invoking command in '/home/cgrundman/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cgrundman/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/cgrundman/GitLab/python-icitdlas:/home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/cgrundman/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/cgrundman/ros2_ws/install/my_cpp_pkg
+[0.055s] -- The C compiler identification is GNU 13.3.0
+[0.095s] -- The CXX compiler identification is GNU 13.3.0
+[0.108s] -- Detecting C compiler ABI info
+[0.179s] -- Detecting C compiler ABI info - done
+[0.185s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.185s] -- Detecting C compile features
+[0.185s] -- Detecting C compile features - done
+[0.194s] -- Detecting CXX compiler ABI info
+[0.281s] -- Detecting CXX compiler ABI info - done
+[0.290s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.290s] -- Detecting CXX compile features
+[0.290s] -- Detecting CXX compile features - done
+[0.293s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.683s] -- Found Python3: /home/cgrundman/.pyenv/shims/python3 (found version "3.12.3") found components: Interpreter 
+[0.791s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.822s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.829s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.839s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.849s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.898s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.900s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.965s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.980s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.998s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.048s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[1.085s] -- Found my_robot_interfaces: 0.0.0 (/home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[1.196s] -- Configuring done (1.2s)
+[1.216s] -- Generating done (0.0s)
+[1.223s] -- Build files have been written to: /home/cgrundman/ros2_ws/build/my_cpp_pkg
+[1.231s] Invoked command in '/home/cgrundman/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cgrundman/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/cgrundman/GitLab/python-icitdlas:/home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/cgrundman/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/cgrundman/ros2_ws/install/my_cpp_pkg
+[1.233s] Invoking command in '/home/cgrundman/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cgrundman/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/cgrundman/GitLab/python-icitdlas:/home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/cgrundman/ros2_ws/build/my_cpp_pkg -- -j14 -l14
+[1.272s] [  6%] [32mBuilding CXX object CMakeFiles/hw_status_publisher.dir/src/hardware_status_publisher.cpp.o[0m
+[1.272s] [ 12%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[1.273s] [ 18%] [32mBuilding CXX object CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.o[0m
+[1.275s] [ 43%] [32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o[0m
+[1.275s] [ 43%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
+[1.275s] [ 43%] [32mBuilding CXX object CMakeFiles/node_name.dir/src/template_cpp_node.cpp.o[0m
+[1.275s] [ 43%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[1.276s] [ 50%] [32mBuilding CXX object CMakeFiles/add_two_ints_client_oop.dir/src/add_two_ints_client_oop.cpp.o[0m
+[3.953s] [01m[K/home/cgrundman/ros2_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:[m[K In member function ‘[01m[Kvoid HardwareStatusPublisherNode::[01;32m[KpublishHardwareStatus[m[K()[m[K’:
+[3.954s] [01m[K/home/cgrundman/ros2_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:28:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[3.954s]    28 |     [01;31m[K}[m[K
+[3.954s]       |     [01;31m[K^[m[K
+[4.324s] [ 56%] [32m[1mLinking CXX executable cpp_node[0m
+[4.347s] [ 62%] [32m[1mLinking CXX executable add_two_ints_server[0m
+[4.467s] [ 62%] Built target cpp_node
+[4.503s] [ 62%] Built target add_two_ints_server
+[4.643s] [ 68%] [32m[1mLinking CXX executable node_name[0m
+[4.777s] [ 68%] Built target node_name
+[4.968s] gmake[2]: *** [CMakeFiles/hw_status_publisher.dir/build.make:76: CMakeFiles/hw_status_publisher.dir/src/hardware_status_publisher.cpp.o] Error 1
+[4.968s] gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/hw_status_publisher.dir/all] Error 2
+[4.968s] gmake[1]: *** Waiting for unfinished jobs....
+[5.426s] [ 75%] [32m[1mLinking CXX executable add_two_ints_client_no_oop[0m
+[5.553s] [ 81%] [32m[1mLinking CXX executable add_two_ints_client_oop[0m
+[5.589s] [ 81%] Built target add_two_ints_client_no_oop
+[5.638s] [ 87%] [32m[1mLinking CXX executable robot_news_station[0m
+[5.685s] [ 87%] Built target add_two_ints_client_oop
+[5.774s] [ 87%] Built target robot_news_station
+[8.366s] [ 93%] [32m[1mLinking CXX executable smartphone[0m
+[8.548s] [ 93%] Built target smartphone
+[8.549s] gmake: *** [Makefile:146: all] Error 2
+[8.551s] Invoked command in '/home/cgrundman/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cgrundman/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/cgrundman/GitLab/python-icitdlas:/home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/cgrundman/ros2_ws/build/my_cpp_pkg -- -j14 -l14

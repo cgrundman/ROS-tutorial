@@ -1,0 +1,65 @@
+[0.612s] Invoking command in '/home/cgrundman/ros2_ws/build/my_py_pkg': CMAKE_PREFIX_PATH=/home/cgrundman/ros2_ws/install/my_robot_interfaces:/home/cgrundman/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cgrundman/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/cgrundman/GitLab/python-icitdlas:/home/cgrundman/ros2_ws/build/my_py_pkg:/home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/cgrundman/ros2_ws/build/my_py_pkg/build
+[0.843s] running develop
+[0.998s] Removing /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)
+[1.028s] Invoked command in '/home/cgrundman/ros2_ws/build/my_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/cgrundman/ros2_ws/install/my_robot_interfaces:/home/cgrundman/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cgrundman/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/cgrundman/GitLab/python-icitdlas:/home/cgrundman/ros2_ws/build/my_py_pkg:/home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/cgrundman/ros2_ws/build/my_py_pkg/build
+[1.029s] Invoking command in '/home/cgrundman/ros2_ws/src/my_py_pkg': CMAKE_PREFIX_PATH=/home/cgrundman/ros2_ws/install/my_robot_interfaces:/home/cgrundman/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cgrundman/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/cgrundman/GitLab/python-icitdlas:/home/cgrundman/ros2_ws/build/my_py_pkg:/home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/cgrundman/ros2_ws/build/my_py_pkg/build install --record /home/cgrundman/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data --force
+[1.240s] running egg_info
+[1.254s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.254s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.254s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.255s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.255s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.285s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.286s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.287s] running build
+[1.287s] running build_py
+[1.287s] copying my_py_pkg/hardware_status_publisher.py -> /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.287s] copying my_py_pkg/led_panel.py -> /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.287s] copying my_py_pkg/battery.py -> /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.288s] running install
+[1.292s] running install_lib
+[1.307s] creating /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.308s] copying /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client_no_oop.py -> /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.308s] copying /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.308s] copying /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client.py -> /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.308s] copying /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.308s] copying /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.309s] copying /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/hardware_status_publisher.py -> /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.309s] copying /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/led_panel.py -> /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.309s] copying /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/battery.py -> /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.309s] copying /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.309s] copying /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.309s] copying /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/template_python_node.py -> /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.309s] copying /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.309s] copying /home/cgrundman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.309s] byte-compiling /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/add_two_ints_client_no_oop.py to add_two_ints_client_no_oop.cpython-312.pyc
+[1.310s] byte-compiling /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-312.pyc
+[1.310s] byte-compiling /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/add_two_ints_client.py to add_two_ints_client.cpython-312.pyc
+[1.310s] byte-compiling /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-312.pyc
+[1.311s] byte-compiling /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/__init__.py to __init__.cpython-312.pyc
+[1.311s] byte-compiling /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/hardware_status_publisher.py to hardware_status_publisher.cpython-312.pyc
+[1.311s] byte-compiling /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/led_panel.py to led_panel.cpython-312.pyc
+[1.311s] byte-compiling /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/battery.py to battery.cpython-312.pyc
+[1.312s] byte-compiling /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-312.pyc
+[1.312s] byte-compiling /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-312.pyc
+[1.312s] byte-compiling /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/template_python_node.py to template_python_node.cpython-312.pyc
+[1.312s] byte-compiling /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-312.pyc
+[1.313s] byte-compiling /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-312.pyc
+[1.313s] running install_data
+[1.313s] copying resource/my_py_pkg -> /home/cgrundman/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.313s] copying package.xml -> /home/cgrundman/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[1.313s] running install_egg_info
+[1.329s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[1.330s] running install_scripts
+[1.426s] Installing add_two_ints_client script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.426s] Installing add_two_ints_client_no_oop script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.426s] Installing add_two_ints_server script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.426s] Installing hw_status_publisher script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.426s] Installing led_panel script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.426s] Installing number_counter script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.426s] Installing number_publisher script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.426s] Installing py_node script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.426s] Installing robot_news_station script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.426s] Installing smartphone script to /home/cgrundman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.426s] writing list of installed files to '/home/cgrundman/ros2_ws/build/my_py_pkg/install.log'
+[1.449s] Invoked command in '/home/cgrundman/ros2_ws/src/my_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/cgrundman/ros2_ws/install/my_robot_interfaces:/home/cgrundman/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cgrundman/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/cgrundman/GitLab/python-icitdlas:/home/cgrundman/ros2_ws/build/my_py_pkg:/home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/cgrundman/ros2_ws/build/my_py_pkg/build install --record /home/cgrundman/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data --force

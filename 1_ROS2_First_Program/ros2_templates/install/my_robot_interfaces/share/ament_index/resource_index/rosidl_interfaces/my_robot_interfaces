@@ -1,0 +1,8 @@
+msg/HardwareStatus.idl
+msg/HardwareStatus.msg
+msg/LEDPanelState.idl
+msg/LEDPanelState.msg
+srv/ComputeRectangleArea.idl
+srv/ComputeRectangleArea.srv
+srv/SetLed.idl
+srv/SetLed.srv

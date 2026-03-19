@@ -1,0 +1,90 @@
+[0.006s] Invoking command in '/home/cgrundman/ros2_ws/src/build/my_cpp_pkg': AMENT_PREFIX_PATH=/home/cgrundman/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cgrundman/ros2_ws/src/install/my_robot_interfaces:/home/cgrundman/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/cgrundman/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cgrundman/ros2_ws/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cgrundman/ros2_ws/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cgrundman/ros2_ws/src/my_cpp_pkg -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/cgrundman/ros2_ws/src/install/my_cpp_pkg
+[0.058s] -- The C compiler identification is GNU 13.3.0
+[0.110s] -- The CXX compiler identification is GNU 13.3.0
+[0.124s] -- Detecting C compiler ABI info
+[0.206s] -- Detecting C compiler ABI info - done
+[0.215s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.216s] -- Detecting C compile features
+[0.216s] -- Detecting C compile features - done
+[0.226s] -- Detecting CXX compiler ABI info
+[0.310s] -- Detecting CXX compiler ABI info - done
+[0.320s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.321s] -- Detecting CXX compile features
+[0.322s] -- Detecting CXX compile features - done
+[0.324s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.706s] -- Found Python3: /home/cgrundman/.pyenv/shims/python3 (found version "3.12.3") found components: Interpreter 
+[0.816s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.850s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.861s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.871s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.882s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.934s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.935s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.999s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.018s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.039s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.090s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[1.129s] -- Found my_robot_interfaces: 0.0.0 (/home/cgrundman/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[1.251s] -- Configuring done (1.2s)
+[1.270s] -- Generating done (0.0s)
+[1.278s] -- Build files have been written to: /home/cgrundman/ros2_ws/src/build/my_cpp_pkg
+[1.287s] Invoked command in '/home/cgrundman/ros2_ws/src/build/my_cpp_pkg' returned '0': AMENT_PREFIX_PATH=/home/cgrundman/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cgrundman/ros2_ws/src/install/my_robot_interfaces:/home/cgrundman/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/cgrundman/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cgrundman/ros2_ws/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cgrundman/ros2_ws/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cgrundman/ros2_ws/src/my_cpp_pkg -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/cgrundman/ros2_ws/src/install/my_cpp_pkg
+[1.288s] Invoking command in '/home/cgrundman/ros2_ws/src/build/my_cpp_pkg': AMENT_PREFIX_PATH=/home/cgrundman/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cgrundman/ros2_ws/src/install/my_robot_interfaces:/home/cgrundman/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/cgrundman/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cgrundman/ros2_ws/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cgrundman/ros2_ws/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cgrundman/ros2_ws/src/build/my_cpp_pkg -- -j14 -l14
+[1.335s] [ 12%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[1.335s] [ 18%] [32mBuilding CXX object CMakeFiles/add_two_ints_client_oop.dir/src/add_two_ints_client_oop.cpp.o[0m
+[1.335s] [ 18%] [32mBuilding CXX object CMakeFiles/node_name.dir/src/template_cpp_node.cpp.o[0m
+[1.336s] [ 31%] [32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o[0m
+[1.337s] [ 31%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[1.338s] [ 37%] [32mBuilding CXX object CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.o[0m
+[1.338s] [ 43%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
+[1.339s] [ 50%] [32mBuilding CXX object CMakeFiles/hw_status_publisher.dir/src/hardware_status_publisher.cpp.o[0m
+[3.746s] [ 56%] [32m[1mLinking CXX executable cpp_node[0m
+[3.933s] [ 56%] Built target cpp_node
+[4.164s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[4.164s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[4.164s]                  from [01m[K/home/cgrundman/ros2_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:1[m[K:
+[4.165s] [01m[K/home/cgrundman/ros2_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:[m[K In constructor ‘[01m[KHardwareStatusPublisherNode::[01;32m[KHardwareStatusPublisherNode[m[K()[m[K’:
+[4.165s] [01m[K/home/cgrundman/ros2_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:17:41:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before string constant
+[4.165s]    17 |         RCLCPP_INFO(this->get_logger(). [01;31m[K"Hardware status publisher has been started"[m[K);
+[4.165s]       |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.165s] [01m[K/home/cgrundman/ros2_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:17:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.165s]    17 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(). "Hardware status publisher has been started");
+[4.165s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[4.165s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K:
+[4.166s] [01m[K/home/cgrundman/ros2_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:17:41:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before string constant
+[4.166s]    17 |         RCLCPP_INFO(this->get_logger(). [01;31m[K"Hardware status publisher has been started"[m[K);
+[4.166s]       |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.166s] [01m[K/home/cgrundman/ros2_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:17:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before string constant
+[4.166s] [01m[K/home/cgrundman/ros2_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:17:9:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[4.166s]    17 |         [01;36m[KRCLCPP_INFO[m[K(this->get_logger(). "Hardware status publisher has been started");
+[4.166s]       |         [01;36m[K^~~~~~~~~~~[m[K
+[4.166s] [01m[K/home/cgrundman/ros2_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:17:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K}[m[K’ token
+[4.166s]    17 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(). "Hardware status publisher has been started");
+[4.166s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[4.166s] [01m[K/home/cgrundman/ros2_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:17:9:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[4.166s]    17 |         [01;36m[KRCLCPP_INFO[m[K(this->get_logger(). "Hardware status publisher has been started");
+[4.166s]       |         [01;36m[K^~~~~~~~~~~[m[K
+[4.166s] [01m[K/home/cgrundman/ros2_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:17:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+[4.167s]    17 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(). "Hardware status publisher has been started");
+[4.167s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[4.167s] [01m[K/home/cgrundman/ros2_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:[m[K In member function ‘[01m[Kvoid HardwareStatusPublisherNode::[01;32m[KpublishHardwareStatus[m[K()[m[K’:
+[4.167s] [01m[K/home/cgrundman/ros2_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:28:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[4.167s]    28 |     [01;31m[K}[m[K
+[4.167s]       |     [01;31m[K^[m[K
+[4.857s] [ 62%] [32m[1mLinking CXX executable add_two_ints_client_no_oop[0m
+[5.017s] [ 62%] Built target add_two_ints_client_no_oop
+[5.031s] gmake[2]: *** [CMakeFiles/hw_status_publisher.dir/build.make:76: CMakeFiles/hw_status_publisher.dir/src/hardware_status_publisher.cpp.o] Error 1
+[5.031s] gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/hw_status_publisher.dir/all] Error 2
+[5.031s] gmake[1]: *** Waiting for unfinished jobs....
+[5.067s] [ 68%] [32m[1mLinking CXX executable node_name[0m
+[5.089s] [ 75%] [32m[1mLinking CXX executable add_two_ints_client_oop[0m
+[5.212s] [ 75%] Built target add_two_ints_client_oop
+[5.212s] [ 75%] Built target node_name
+[5.481s] [ 81%] [32m[1mLinking CXX executable robot_news_station[0m
+[5.667s] [ 81%] Built target robot_news_station
+[5.721s] [ 87%] [32m[1mLinking CXX executable add_two_ints_server[0m
+[5.829s] [ 87%] Built target add_two_ints_server
+[8.074s] [ 93%] [32m[1mLinking CXX executable smartphone[0m
+[8.256s] [ 93%] Built target smartphone
+[8.257s] gmake: *** [Makefile:146: all] Error 2
+[8.259s] Invoked command in '/home/cgrundman/ros2_ws/src/build/my_cpp_pkg' returned '2': AMENT_PREFIX_PATH=/home/cgrundman/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cgrundman/ros2_ws/src/install/my_robot_interfaces:/home/cgrundman/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/cgrundman/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cgrundman/ros2_ws/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cgrundman/ros2_ws/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cgrundman/ros2_ws/src/build/my_cpp_pkg -- -j14 -l14

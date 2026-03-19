@@ -1,0 +1,31 @@
+[ 12%] Built target node_name
+[ 25%] Built target cpp_node
+[ 37%] Built target add_two_ints_client_no_oop
+[ 75%] Built target add_two_ints_client_oop
+[ 75%] Built target smartphone
+[ 75%] Built target add_two_ints_server
+[ 87%] Built target robot_news_station
+[100%] Built target hw_status_publisher
+-- Install configuration: ""
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_oop
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hw_status_publisher
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+-- Installing: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+-- Up-to-date: /home/cgrundman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml

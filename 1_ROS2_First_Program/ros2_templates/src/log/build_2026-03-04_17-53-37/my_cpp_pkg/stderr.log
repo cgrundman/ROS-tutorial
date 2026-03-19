@@ -1,0 +1,35 @@
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/cgrundman/ros2_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:1[m[K:
+[01m[K/home/cgrundman/ros2_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:[m[K In constructor ‘[01m[KHardwareStatusPublisherNode::[01;32m[KHardwareStatusPublisherNode[m[K()[m[K’:
+[01m[K/home/cgrundman/ros2_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:17:41:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before string constant
+   17 |         RCLCPP_INFO(this->get_logger(). [01;31m[K"Hardware status publisher has been started"[m[K);
+      |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/cgrundman/ros2_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:17:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   17 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(). "Hardware status publisher has been started");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K:
+[01m[K/home/cgrundman/ros2_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:17:41:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before string constant
+   17 |         RCLCPP_INFO(this->get_logger(). [01;31m[K"Hardware status publisher has been started"[m[K);
+      |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/cgrundman/ros2_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:17:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before string constant
+[01m[K/home/cgrundman/ros2_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:17:9:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   17 |         [01;36m[KRCLCPP_INFO[m[K(this->get_logger(). "Hardware status publisher has been started");
+      |         [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/cgrundman/ros2_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:17:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K}[m[K’ token
+   17 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(). "Hardware status publisher has been started");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/cgrundman/ros2_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:17:9:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   17 |         [01;36m[KRCLCPP_INFO[m[K(this->get_logger(). "Hardware status publisher has been started");
+      |         [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/cgrundman/ros2_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:17:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+   17 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(). "Hardware status publisher has been started");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/cgrundman/ros2_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:[m[K In member function ‘[01m[Kvoid HardwareStatusPublisherNode::[01;32m[KpublishHardwareStatus[m[K()[m[K’:
+[01m[K/home/cgrundman/ros2_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:28:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   28 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/hw_status_publisher.dir/build.make:76: CMakeFiles/hw_status_publisher.dir/src/hardware_status_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/hw_status_publisher.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,226 @@
+[0.008s] Invoking command in '/home/cgrundman/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cgrundman/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cgrundman/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/cgrundman/ros2_ws/install/my_robot_interfaces
+[0.054s] -- The C compiler identification is GNU 13.3.0
+[0.104s] -- The CXX compiler identification is GNU 13.3.0
+[0.119s] -- Detecting C compiler ABI info
+[0.194s] -- Detecting C compiler ABI info - done
+[0.203s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.203s] -- Detecting C compile features
+[0.203s] -- Detecting C compile features - done
+[0.213s] -- Detecting CXX compiler ABI info
+[0.298s] -- Detecting CXX compiler ABI info - done
+[0.308s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.308s] -- Detecting CXX compile features
+[0.308s] -- Detecting CXX compile features - done
+[0.310s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.681s] -- Found Python3: /home/cgrundman/.pyenv/shims/python3 (found version "3.12.3") found components: Interpreter 
+[0.788s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.792s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.821s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.845s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.168s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.303s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.850s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.851s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[5.232s] -- Found PythonExtra: /home/cgrundman/.pyenv/shims/python3  
+[6.122s] -- Found Python3: /home/cgrundman/.pyenv/shims/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[6.198s] -- Configuring done (6.2s)
+[6.223s] -- Generating done (0.0s)
+[6.232s] -- Build files have been written to: /home/cgrundman/ros2_ws/build/my_robot_interfaces
+[6.242s] Invoked command in '/home/cgrundman/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cgrundman/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cgrundman/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/cgrundman/ros2_ws/install/my_robot_interfaces
+[6.243s] Invoking command in '/home/cgrundman/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cgrundman/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cgrundman/ros2_ws/build/my_robot_interfaces -- -j14 -l14
+[6.288s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[6.297s] [  2%] Built target ament_cmake_python_copy_my_robot_interfaces
+[6.460s] [  2%] Built target my_robot_interfaces__rosidl_generator_type_description
+[6.469s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.476s] running egg_info
+[6.476s] creating my_robot_interfaces.egg-info
+[6.476s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.489s] writing my_robot_interfaces.egg-info/PKG-INFO
+[6.489s] writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt
+[6.489s] writing top-level names to my_robot_interfaces.egg-info/top_level.txt
+[6.489s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[6.542s] reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[6.542s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[6.576s] [  8%] Built target ament_cmake_python_build_my_robot_interfaces_egg
+[6.661s] [  8%] Built target my_robot_interfaces__cpp
+[6.683s] [ 11%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__description.c.o[0m
+[6.683s] [ 17%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__type_support.c.o[0m
+[6.683s] [ 17%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.c.o[0m
+[6.720s] [ 20%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_generator_c.so[0m
+[6.747s] [ 20%] Built target my_robot_interfaces__rosidl_generator_c
+[6.754s] [ 26%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.754s] [ 26%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.755s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.755s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.755s] [ 35%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.756s] [ 38%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.947s] [ 41%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp.o[0m
+[6.976s] [ 44%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/hardware_status__type_support.cpp.o[0m
+[6.978s] [ 47%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp.o[0m
+[7.008s] [ 50%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/hardware_status__type_support.cpp.o[0m
+[7.021s] [ 52%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__type_support.c.o[0m
+[7.034s] [ 55%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/hardware_status__type_support_c.cpp.o[0m
+[7.044s] [ 58%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_c.so[0m
+[7.057s] [ 61%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[7.084s] [ 61%] Built target my_robot_interfaces__rosidl_typesupport_c
+[7.089s] [ 61%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c
+[7.241s] [ 64%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[7.248s] [ 67%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_cpp.so[0m
+[7.280s] [ 70%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.288s] [ 70%] Built target my_robot_interfaces__rosidl_typesupport_cpp
+[7.300s] [ 70%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp
+[7.306s] [ 73%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[7.339s] [ 73%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[7.363s] [ 73%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c
+[7.378s] [ 73%] Built target my_robot_interfaces
+[7.392s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.612s] [ 76%] Built target my_robot_interfaces__py
+[7.629s] [ 79%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/msg/_hardware_status_s.c.o[0m
+[7.706s] [ 82%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_generator_py.so[0m
+[7.743s] [ 82%] Built target my_robot_interfaces__rosidl_generator_py
+[7.762s] [ 91%] [32mBuilding C object CMakeFiles/my_robot_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[7.762s] [ 91%] [32mBuilding C object CMakeFiles/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.762s] [ 91%] [32mBuilding C object CMakeFiles/my_robot_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.825s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[7.827s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[7.848s] [ 97%] Built target my_robot_interfaces_s__rosidl_typesupport_introspection_c
+[7.850s] [100%] [32m[1mLinking C shared module rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so[0m
+[7.850s] [100%] Built target my_robot_interfaces_s__rosidl_typesupport_fastrtps_c
+[7.876s] [100%] Built target my_robot_interfaces_s__rosidl_typesupport_c
+[7.886s] Invoked command in '/home/cgrundman/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cgrundman/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cgrundman/ros2_ws/build/my_robot_interfaces -- -j14 -l14
+[7.895s] Invoking command in '/home/cgrundman/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cgrundman/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cgrundman/ros2_ws/build/my_robot_interfaces
+[7.901s] -- Install configuration: ""
+[7.901s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces
+[7.901s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.json
+[7.901s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[7.901s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[7.901s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[7.901s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.h
+[7.902s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[7.902s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__description.c
+[7.902s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.c
+[7.902s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.h
+[7.902s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.c
+[7.902s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.h
+[7.902s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.h
+[7.902s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh
+[7.902s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv
+[7.902s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so
+[7.902s] -- Set non-toolchain portion of runtime path of "/home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so" to ""
+[7.903s] -- Up-to-date: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[7.903s] -- Up-to-date: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[7.903s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.903s] -- Up-to-date: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[7.903s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h
+[7.903s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so
+[7.903s] -- Set non-toolchain portion of runtime path of "/home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[7.903s] -- Up-to-date: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[7.903s] -- Up-to-date: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[7.903s] -- Up-to-date: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[7.903s] -- Up-to-date: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.c
+[7.903s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h
+[7.903s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.903s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so
+[7.903s] -- Set non-toolchain portion of runtime path of "/home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[7.903s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so
+[7.903s] -- Set non-toolchain portion of runtime path of "/home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so" to ""
+[7.903s] -- Up-to-date: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[7.904s] -- Up-to-date: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[7.904s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.904s] -- Up-to-date: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[7.904s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.hpp
+[7.904s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.hpp
+[7.904s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__traits.hpp
+[7.904s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__builder.hpp
+[7.904s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.hpp
+[7.904s] -- Up-to-date: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[7.904s] -- Up-to-date: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[7.904s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.904s] -- Up-to-date: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[7.904s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp
+[7.904s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/dds_fastrtps
+[7.904s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[7.904s] -- Set non-toolchain portion of runtime path of "/home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.904s] -- Up-to-date: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[7.904s] -- Up-to-date: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[7.904s] -- Up-to-date: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[7.904s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp
+[7.904s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp
+[7.904s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so
+[7.904s] -- Set non-toolchain portion of runtime path of "/home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[7.904s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so
+[7.904s] -- Set non-toolchain portion of runtime path of "/home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so" to ""
+[7.904s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh
+[7.904s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv
+[7.905s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info
+[7.905s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[7.905s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[7.905s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[7.905s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[7.905s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces
+[7.905s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg
+[7.905s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/__init__.py
+[7.905s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_hardware_status.py
+[7.905s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_hardware_status_s.c
+[7.905s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so
+[7.905s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/__init__.py
+[7.905s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c
+[7.905s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[7.905s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.905s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so
+[7.905s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[7.967s] Listing '/home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces'...
+[7.968s] Compiling '/home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/__init__.py'...
+[7.968s] Listing '/home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg'...
+[7.968s] Compiling '/home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/__init__.py'...
+[7.968s] Compiling '/home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_hardware_status.py'...
+[7.971s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[7.971s] -- Set non-toolchain portion of runtime path of "/home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[7.971s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so
+[7.971s] -- Set non-toolchain portion of runtime path of "/home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[7.972s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so
+[7.972s] -- Set non-toolchain portion of runtime path of "/home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so" to ""
+[7.972s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so
+[7.972s] -- Set non-toolchain portion of runtime path of "/home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so" to ""
+[7.972s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.idl
+[7.972s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.msg
+[7.972s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces
+[7.973s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces
+[7.973s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh
+[7.973s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv
+[7.973s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh
+[7.973s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv
+[7.973s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash
+[7.973s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh
+[7.973s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh
+[7.973s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv
+[7.973s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv
+[7.973s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces
+[7.973s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake
+[7.974s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[7.974s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[7.974s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.974s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[7.974s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.974s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake
+[7.974s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[7.974s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cppExport.cmake
+[7.974s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.974s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.974s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[7.974s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.974s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake
+[7.974s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[7.974s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport.cmake
+[7.974s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[7.974s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[7.974s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.974s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.974s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[7.974s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.974s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.974s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.974s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake
+[7.975s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake
+[7.975s] -- Installing: /home/cgrundman/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.xml
+[7.976s] Invoked command in '/home/cgrundman/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cgrundman/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cgrundman/ros2_ws/build/my_robot_interfaces

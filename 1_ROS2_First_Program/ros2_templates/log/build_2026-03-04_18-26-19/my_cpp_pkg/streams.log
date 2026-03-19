@@ -1,0 +1,17 @@
+[0.007s] Invoking command in '/home/cgrundman/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cgrundman/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/cgrundman/GitLab/python-icitdlas:/home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/cgrundman/ros2_ws/build/my_cpp_pkg -- -j14 -l14
+[0.057s] [  6%] [32mBuilding CXX object CMakeFiles/hw_status_publisher.dir/src/hardware_status_publisher.cpp.o[0m
+[0.058s] [ 18%] Built target add_two_ints_server
+[0.059s] [ 62%] Built target node_name
+[0.059s] [ 62%] Built target smartphone
+[0.059s] [ 62%] Built target add_two_ints_client_no_oop
+[0.059s] [ 75%] Built target cpp_node
+[0.059s] [ 81%] Built target add_two_ints_client_oop
+[0.061s] [ 93%] Built target robot_news_station
+[1.392s] [01m[K/home/cgrundman/ros2_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:[m[K In member function ‘[01m[Kvoid HardwareStatusPublisherNode::[01;32m[KpublishHardwareStatus[m[K()[m[K’:
+[1.393s] [01m[K/home/cgrundman/ros2_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:28:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[1.393s]    28 |     [01;31m[K}[m[K;
+[1.393s]       |     [01;31m[K^[m[K
+[2.033s] gmake[2]: *** [CMakeFiles/hw_status_publisher.dir/build.make:76: CMakeFiles/hw_status_publisher.dir/src/hardware_status_publisher.cpp.o] Error 1
+[2.033s] gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/hw_status_publisher.dir/all] Error 2
+[2.033s] gmake: *** [Makefile:146: all] Error 2
+[2.036s] Invoked command in '/home/cgrundman/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cgrundman/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cgrundman/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/cgrundman/GitLab/python-icitdlas:/home/cgrundman/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/cgrundman/ros2_ws/build/my_cpp_pkg -- -j14 -l14
